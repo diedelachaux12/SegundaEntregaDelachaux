@@ -19,11 +19,18 @@ list-style: none;
 color: white;
 display: flex;
 flex-direction: row;    
+text-decoration: none;
 align-items: center;
 gap: 15px;
 }
 
+.items-navegador a{
+  text-decoration: none;
+  color: white;
+}
 
+.custom-button { background: black;
+color: white; }
 .fa-bars{
   display: none;
   color: rgb(0, 0, 0);
@@ -55,14 +62,14 @@ gap: 15px;
     .items-navegador{
       position: fixed;
       display: none;
-
-              top: 45px ;
+      top: 45px ;
       right: 0 ;
       width: 240px;
       height: 100vh;
       background-color: rgb(0, 0, 0);
       flex-direction: column;
       justify-content: start;
+      text-decoration: none;
       align-items: center;
     }
     .item-shop{
@@ -316,6 +323,11 @@ align-items: center;
 
 .footer p{
   margin: 0px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 768px) {
