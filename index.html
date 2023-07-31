@@ -17,31 +17,31 @@
 <body>
     <header>
         <!-- NAVEGADOR -->
-        <nav>
+        <nav class="navegador">
             <a href="./index.html">
                 <img src="./multimedia/img/Naiki Store.png" alt="Naiki Store" > 
             </a>
-            <div class="hamburguesa">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="container-menu">
-                
-                <ul class="menu">
-                    <li class="desplegable"><span>Shop</span>
-                        <ul class="desplegados">
-                            <li><a href="./pages/airforce1.html">Air Force 1</a></li>
-                            <li><a href="#">Jordan 1</a></li>
-                            <li><a href="#">Dunk Low</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="menu">
-                    <!-- <li> <a href="./pages/carrito.html"> Carrito </a></li>  PENDIENTE -->
-                    <li>  <a href="./pages/preguntas-frecuentes.html"> Preguntas Frecuentes</a> </li>
-                    <li> <a href="#contactenos">  Contacto  </a></li>
-                    <li> <a href="./pages/registro.html">  Registro  </a></li> 
-                </ul>
-            </div>
+            <i class="fa-solid fa-bars"></i>
+            <ul class="items-navegador">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./pages/airforce1.html">Air Force</a></li>
+                      <li><a class="dropdown-item" href="#">Jordan 1</a></li>
+                      <li><a class="dropdown-item" href="#">Dunk Low</a></li>
+                    </ul>
+                  </div>
+                  
+                  
+            <!-- <li> <a href="./pages/carrito.html"> Carrito </a></li>  PENDIENTE -->
+            <li> <a href="#contactenos">  Contacto  </a></li>
+            <li> <a href="./pages/registro.html">  Registro  </a></li>
+            <li>  <a href="./pages/preguntas-frecuentes.html"> Preguntas Frecuentes</a> </li>
+
+            </ul>
+
         </nav>
         <!-- Fin navegador -->
     </header>
