@@ -27,6 +27,7 @@ gap: 15px;
 .items-navegador a{
   text-decoration: none;
   color: white;
+  
 }
 
 .custom-button { background: black;
@@ -37,8 +38,13 @@ color: white; }
   
   
 }
-
-
+.drop-btn{
+  color: black;
+}
+.dropdown-menu li a{
+  color: black;
+  
+}
 
 
 @media (max-width: 768px){
